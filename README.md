@@ -1,8 +1,9 @@
-# Шаблон каталога курса для студентов
+# Administration of local networks
+Year 3 - Module 3
 
-## Скачать репозиторий
+## Laboratory Work №1 - Getting to know Cisco Packet Tracer
 
-git clone --recursive https://github.com/yamadharma/course-directory-student-template.git
+Purpose of the work: installing the Cisco Packet Tracer Network Configuration Modeling Tool and getting to know its interface.
 
 # Основные идеи
 
