@@ -5,6 +5,10 @@ Year 3 - Module 3
 
 Purpose of the work: installing the Cisco Packet Tracer Network Configuration Modeling Tool and getting to know its interface.
 
+## Laboratory Work №2 - Preliminary configuration of Cisco equipment
+
+Purpose of the work: 
+
 # Основные идеи
 
 -   Стандартные соглашения об именах
