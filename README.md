@@ -4,6 +4,9 @@ Year 3 - Module 3
 ## Laboratory Work №1 - Getting to know Cisco Packet Tracer
 
 Purpose of the work: installing the Cisco Packet Tracer Network Configuration Modeling Tool and getting to know its interface.
+- Task:
+    1. Install Cisco Packet Tracer on your home device.
+    2. Build the simplest network in Cisco Packet Tracer, perform the simplest hardware configuration
 
 ## Laboratory Work №2 - Preliminary configuration of Cisco equipment
 
@@ -36,6 +39,8 @@ Purpose of the work: Acquisition of practical skills in setting up dynamic IP ad
 ## Laboratory Work №9 - Using the STP protocol. Channel aggregation
 
 Purpose of the work: Study of the capabilities of the STP protocol and its modifications to ensure network fault tolerance, interface aggregation and load redistribution between them.
+
+Year 3 - Module 4
 
 ## Laboratory Work №10 - Configuring Access Control Lists (ACL)
 
