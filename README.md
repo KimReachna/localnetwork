@@ -12,6 +12,10 @@ Purpose of the work: installing the Cisco Packet Tracer Network Configuration Mo
 
 Purpose of the work: Get basic skills in the initial configuration of equipment Cisco.
 
+- Task:
+    1. Make a preliminary configuration of the router
+    2. Make a preliminary configuration of the switch
+
 ## Laboratory Work №3 - Planning the organization's local network
 
 Purpose of the work: Get acquainted with the principles of planning the organization's local network.
@@ -19,6 +23,9 @@ Purpose of the work: Get acquainted with the principles of planning the organiza
 ## Laboratory Work №4 - Initial network configuration
 
 Purpose of the work: To carry out preparatory work on the initial setup of the network switches.
+
+- Task:
+    1. It is required to make the initial configuration of the switches of the network shown in the L1 diagram. The initial setup means specifying the device name, its IP address, configuring password access to virtual terminals and consoles, configuring remote access to the device via ssh.
 
 ## Laboratory Work №5 - VLAN Configuration
 
