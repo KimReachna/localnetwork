@@ -4,116 +4,56 @@ Year 3 - Module 3
 ## Laboratory Work №1 - Getting to know Cisco Packet Tracer
 
 Purpose of the work: installing the Cisco Packet Tracer Network Configuration Modeling Tool and getting to know its interface.
+- Task:
+    1. Install Cisco Packet Tracer on your home device.
+    2. Build the simplest network in Cisco Packet Tracer, perform the simplest hardware configuration
 
-# Основные идеи
+## Laboratory Work №2 - Preliminary configuration of Cisco equipment
 
--   Стандартные соглашения об именах
--   Стандартное соглашение для путей к файлам
--   Стандартная настройка курса внутри шаблона курса
+Purpose of the work: Get basic skills in the initial configuration of equipment Cisco.
 
-# Общие правила
+- Task:
+    1. Make a preliminary configuration of the router
+    2. Make a preliminary configuration of the switch
 
--   Рабочее пространство по предмету располагается в следующей иерархии:
+## Laboratory Work №3 - Planning the organization's local network
 
-    ``` bash
-    ~/work/study/
-    └── <учебный год>/
-        └── <название предмета>/
-            └── <код предмета>/
-    ```
+Purpose of the work: Get acquainted with the principles of planning the organization's local network.
 
--   Например, для 2022--2023 учебного года и предмета «Операционные
-    системы» (код предмета `os-intro`) структура каталогов
-    примет следующий вид:
+## Laboratory Work №4 - Initial network configuration
 
-    ``` bash
-    ~/work/study/
-    └── 2022-2023/
-        └── Операционные системы/
-            └── os-intro/
-    ```
+Purpose of the work: To carry out preparatory work on the initial setup of the network switches.
 
--   Название проекта на хостинге git имеет вид:
+- Task:
+    1. It is required to make the initial configuration of the switches of the network shown in the L1 diagram. The initial setup means specifying the device name, its IP address, configuring password access to virtual terminals and consoles, configuring remote access to the device via ssh.
 
-    ``` example
-    study_<учебный год>_<код предмета>
-    ```
+## Laboratory Work №5 - VLAN Configuration
 
--   Например, для 2022--2023 учебного года и предмета «Операционные
-    системы» (код предмета `os-intro`) название проекта
-    примет следующий вид:
+Purpose of the work: Get basic VLAN configuration skills on network switches.
 
-    ``` example
-    study_2022-2023_os-intro
-    ```
+## Laboratory Work №6 - Static VLAN routing
 
--   Каталог для лабораторных работ имеет вид `labs`.
+Purpose of the work: Configure static VLAN routing on the network.
 
--   Каталоги для лабораторных работ имеют вид `lab<номер>`,
-    например: `lab01`, `lab02` и т.д.
+## Laboratory Work №7 - Accounting for the physical parameters of the network
 
--   Каталог для групповых проектов имеет вид `group-project`.
+Purpose of the work: Get the skills to work with the physical workspace of Packet Tracer, as well as take into account the physical parameters of the network.
 
--   Каталог для персональных проектов имеет вид
-    `personal-project`.
+## Laboratory Work №8 - Configuring network services DHCP
 
--   Если проектов несколько, то они нумеруются подобно лабораторным
-    работам.
+Purpose of the work: Acquisition of practical skills in setting up dynamic IP address allocation via the DHCP protocol (Dynamic Host Configuration protocol) in a local network.
 
--   Этапы проекта обозначаются как `stage<номер>`.
+## Laboratory Work №9 - Using the STP protocol. Channel aggregation
 
-# Шаблон для рабочего пространства
+Purpose of the work: Study of the capabilities of the STP protocol and its modifications to ensure network fault tolerance, interface aggregation and load redistribution between them.
 
--   Репозиторий:
-    <https://github.com/yamadharma/course-directory-student-template>.
+Year 3 - Module 4
 
-## Сознание репозитория курса на основе шаблона
+## Laboratory Work №10 - Configuring Access Control Lists (ACL)
 
--   Репозиторий на основе шаблона можно создать либо вручную, через
-    web-интерфейс, либо с помощью утилит `gh` (см. [github:
-    утилиты командной строки](id:d1925a41-6b4c-4a3a-b102-6337891b8841)).
+Purpose of the work: Master setting up user access rights to network resources.
 
--   Создание с помощью утилит.
 
--   Создание выглядит следующим образом:
-
-    ``` shell
-    gh repo create <new-repo-name> --template="<owner/template-repo>"
-    ```
-
--   Например, для 2022--2023 учебного года и предмета «Операционные
-    системы» (код предмета `os-intro`) создание репозитория
-    примет следующий вид:
-
-    ``` shell
-    mkdir -p ~/work/study/2022-2023/"Операционные системы"
-    cd ~/work/study/2022-2023/"Операционные системы"
-    gh repo create study_2022-2023_os-intro --template=yamadharma/course-directory-student-template --public
-    git clone --recursive git@github.com:<owner>/study_2022-2023_os-intro.git os-intro
-    ```
-
--   Сделать свой репозиторий на основе шаблона можно и вручную.
-
-## Настройка каталога курса
-
--   Перейдите в каталог курса:
-
-    ``` shell
-    cd ~/work/study/2022-2023/"Операционные системы"/os-intro
-    ```
-
--   Удалите лишние файлы:
-
-    ``` shell
-    rm package.json
-    ```
-
--   Создайте необходимые каталоги:
-
-    ``` shell
-    echo os-intro > COURSE
-    make
-    ```
 
 -   Отправьте файлы на сервер:
 
