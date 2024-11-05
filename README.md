@@ -53,6 +53,16 @@ Year 3 - Module 4
 
 Purpose of the work: Master setting up user access rights to network resources.
 
+## Laboratory work №11 - Setting the NAT
+
+Purpose of the work: To carry out preparatory measures to connect the local network of the organization to the internet.
+
+## Laboratory work №12 - Setting up NAT
+
+Purpose of the work: Acquisition of practical skills in setting up access to the local network through NAT.
+
+##
+
 
 
 -   Отправьте файлы на сервер:
